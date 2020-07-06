@@ -8,7 +8,7 @@
   1. Index creation
     bptree.exe c [bptree binary file] [block_size]
     
-    bptree header 설정
+        -bptree header 설정
     
     
     
@@ -17,23 +17,23 @@
     
     e.g., bptree.exe i bptree.bin records.txt
     
-    data insertion
+        -data insertion
 
   3. Point (exact) search
     bptree.exe s [bptree binary file] [input text file] [output text file]
     
-    찾고자하는 key의 value를 print
+        -찾고자하는 key의 value를 print
     
     
 
   4. Range search
     bptree.exe r [bptree binary file] [input text file] [output text file]
     
-    구간 a부터 b까지의 key에 대한 key를 print
+        -구간 a부터 b까지의 key에 대한 key를 print
     
 
   5. Print B+ tree
     -bptree.exe p [bptree binary file] [output text file]
     
-    root와 root의 child 노드를 print
+        -root와 root의 child 노드를 print
     
