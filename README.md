@@ -15,8 +15,6 @@
   2. Insertion
     bptree.exe i [bptree binary file] [records data text file]
     
-    e.g., bptree.exe i bptree.bin records.txt
-    
         -data insertion
 
   3. Point (exact) search
@@ -33,7 +31,7 @@
     
 
   5. Print B+ tree
-    -bptree.exe p [bptree binary file] [output text file]
+    bptree.exe p [bptree binary file] [output text file]
     
         -root와 root의 child 노드를 print
     
