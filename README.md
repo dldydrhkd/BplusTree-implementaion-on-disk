@@ -34,4 +34,7 @@
     bptree.exe p [bptree binary file] [output text file]
     
         -root와 root의 child 노드를 print
-    
+        
+ * ## 주의사항
+    - sample들은 잘 작동하지만 그 이외의 파일들은 segmentaion 오류 발생
+    - sample 이외의 파일은 참고
